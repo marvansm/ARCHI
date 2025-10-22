@@ -8,11 +8,11 @@ import { ThemeProvider } from "@mui/material/styles";
 import { theme } from "./Constants/theme.ts";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <TanstackProvider>
-      <TanstackRouterProvider />
-      <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <TanstackProvider>
+        <TanstackRouterProvider />
         <App />
-      </ThemeProvider>
-    </TanstackProvider>
+      </TanstackProvider>
+    </ThemeProvider>
   </StrictMode>
 );
