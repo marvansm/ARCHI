@@ -1,5 +1,13 @@
 import { createTheme } from "@mui/material/styles";
 
+declare module "@mui/material/Button" {
+  interface ButtonPropsVariantOverrides {
+    light: true;
+    dark: true;
+    banner: true;
+  }
+}
+
 export const theme = createTheme({
   components: {
     MuiButton: {

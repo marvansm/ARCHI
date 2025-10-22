@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
+import type { CollectionCart } from "../../../Types/global";
 
-const CollectionCart = ({ image, title, btnVariant }) => {
+const CollectionCart = ({ image, title, btnVariant }: CollectionCart) => {
   return (
     <div className=" relative ">
       <img
