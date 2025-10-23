@@ -5,6 +5,7 @@ declare module "@mui/material/Button" {
     light: true;
     dark: true;
     banner: true;
+    viewAll: true;
   }
 }
 
@@ -64,6 +65,19 @@ export const theme = createTheme({
         },
         {
           props: { variant: "banner" },
+          style: {
+            borderColor: "#000",
+            width: "256.5px",
+            color: "#000",
+            "&:hover": {
+              backgroundColor: "#C1F377",
+              borderColor: "#C1F377",
+              color: "#000",
+            },
+          },
+        },
+        {
+          props: { variant: "viewAll" },
           style: {
             borderColor: "#000",
             width: "256.5px",

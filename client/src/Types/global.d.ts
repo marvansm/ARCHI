@@ -8,3 +8,10 @@ export type headingTypes = {
   title?: string;
   desc?: string;
 };
+
+export type ProductCardProps = {
+  title?: string;
+  image?: string;
+  price?: number;
+  discount?: number;
+};
