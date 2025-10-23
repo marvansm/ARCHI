@@ -1,5 +1,6 @@
 import CollectionCart from "../../Components/CollectionCart";
 
+
 const CollectionSection = () => {
   return (
     <section className="bg-[#f9fafb] py-[120px]">

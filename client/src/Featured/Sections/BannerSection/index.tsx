@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 
 const BannerSection = () => {
   return (
-    <section className="mb-6">
+    <section className="">
       <div className="bg-[#f9fafb] px-[80px] relative overflow-hidden">
         <div className="absolute top-[-42px] right-[-203px] w-[348px] overflow-hidden">
           <svg

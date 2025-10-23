@@ -8,3 +8,8 @@ export type CollectionCart = {
   title?: string;
   btnVariant?: string;
 };
+
+export type headingTypes = {
+  title?: string;
+  desc?: string;
+};
