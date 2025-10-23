@@ -16,10 +16,18 @@ const ProductCard = ({ image, title, price, discount }: ProductCardProps) => {
         <div>
           <h3 className="text-lg font-bold text-black">{title}</h3>
           <ul className="flex mt-1 gap-2 items-center">
-            <li className="text-[16px] text-black">$ {discount} USD</li>
-            <li className="text-[14px] text-[#667085] line-through">
-              $ {price} USD
-            </li>
+            {discount ? (
+              <li className="text-[16px] text-black">$ {discount} USD</li>
+            ) : (
+              ""
+            )}
+            {price ? (
+              <li className="text-[14px] text-[#667085] line-through">
+                $ {price} USD
+              </li>
+            ) : (
+              ""
+            )}
           </ul>
         </div>
 
