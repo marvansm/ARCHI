@@ -4,7 +4,7 @@ import CollectionCart from "../../Components/CollectionCart";
 const CollectionSection = () => {
   return (
     <section className="bg-[#f9fafb] py-[120px]">
-      <div className="container mx-auto max-w-[1336px] px-[60px] py-[32px]">
+      <div className="container mx-auto max-w-[1336px] px-[60px] py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
           <CollectionCart
             image={
